@@ -1,0 +1,123 @@
+/**
+ * Multilingual local AI response templates (offline, no API).
+ * Used by localAIEngine when OpenAI is unavailable.
+ */
+
+export const LOCAL_AI_TEMPLATES = {
+  en: {
+    greeting: "Hello! I'm MIRA AI by Maryam 🦋 — your wellness companion.\n\nI understand your feelings today. Ask me about your week, stress, habits, or progress anytime.",
+    fallback: "MIRA is here for you. Try asking about your mood, habits, or how your week went.",
+    moodInsight: "I understand your mood today. Your emotional awareness is growing — naming feelings is a powerful wellness practice.",
+    weekIntro: "Here's your MIRA weekly snapshot:",
+    stressIntro: "I hear you. Based on your recent entries, let's look at what might be contributing to stress:",
+    progressIntro: "Here's your MIRA progress snapshot:",
+    habitsIntro: "MIRA analyzed your habits:",
+    goalsEmpty: "You haven't set goals yet. Start with one meaningful goal and 2–3 milestones.",
+    generalThanks: "Thanks for sharing. MIRA looked at your wellness data to respond:",
+  },
+  ur: {
+    greeting: "السلام علیکم! میں MIRA AI by Maryam 🦋 ہوں — آپ کی ویلنس ساتھی۔\n\nمیں آپ کے آج کے احساسات سمجھ رہی ہوں۔ ہفتے، تناؤ، عادات یا ترقی کے بارے میں کبھی بھی پوچھیں۔",
+    fallback: "MIRA آپ کے ساتھ ہے۔ اپنے موڈ، عادات، یا ہفتے کے بارے میں پوچھیں۔",
+    moodInsight: "میں آپ کے آج کے احساسات سمجھ رہی ہوں۔ آپ کی جذباتی آگاہی بڑھ رہی ہے — احساسات کا نام لینا ایک طاقتور مشق ہے۔",
+    weekIntro: "یہ آپ کا MIRA ہفتہ وار خلاصہ ہے:",
+    stressIntro: "میں سنتی ہوں۔ آپ کے حالیہ اندراجات کی بنیاد پر تناؤ کی وجوہات دیکھتے ہیں:",
+    progressIntro: "یہ آپ کا MIRA ترقی کا خلاصہ ہے:",
+    habitsIntro: "MIRA نے آپ کی عادات کا تجزیہ کیا:",
+    goalsEmpty: "آپ نے ابھی کوئی ہدف نہیں رکھا۔ ایک معنی خیز ہدف اور 2-3 سنگ میل سے شروع کریں۔",
+    generalThanks: "شیئر کرنے کا شکریہ۔ MIRA نے آپ کے ویلنس ڈیٹا کو دیکھا:",
+  },
+  ar: {
+    greeting: "مرحباً! أنا MIRA AI by Maryam 🦋 — رفيقتك في العافية.\n\nأفهم مشاعرك اليوم. اسأليني عن أسبوعك أو التوتر أو العادات أو تقدمك في أي وقت.",
+    fallback: "MIRA هنا من أجلك. جرّبي السؤال عن مزاجك أو عاداتك أو كيف كان أسبوعك.",
+    moodInsight: "أفهم مشاعرك اليوم. وعيك العاطفي ينمو — تسمية المشاعر ممارسة قوية للعافية.",
+    weekIntro: "إليك ملخص MIRA الأسبوعي:",
+    stressIntro: "أسمعك. بناءً على مدخلاتك الأخيرة، لننظر إلى ما قد يسبب التوتر:",
+    progressIntro: "إليك لمحة تقدم MIRA:",
+    habitsIntro: "حللت MIRA عاداتك:",
+    goalsEmpty: "لم تحددي أهدافاً بعد. ابدئي بهدف واحد ذي معنى و2-3 معالم.",
+    generalThanks: "شكراً للمشاركة. نظرت MIRA إلى بيانات عافيتك:",
+  },
+  hi: {
+    greeting: "नमस्ते! मैं MIRA AI by Maryam 🦋 हूँ — आपकी wellness साथी।\n\nमैं आज आपकी भावनाओं को समझती हूँ। सप्ताह, तनाव, आदतें या प्रगति के बारे में पूछें।",
+    fallback: "MIRA आपके साथ है। मूड, आदतें या सप्ताह के बारे में पूछें।",
+    moodInsight: "मैं आज आपकी भावनाओं को समझती हूँ। आपकी भावनात्मक जागरूकता बढ़ रही है।",
+    weekIntro: "यह आपका MIRA साप्ताहिक सारांश है:",
+    stressIntro: "मैं सुन रही हूँ। आपकी हाल की entries के आधार पर तनाव देखते हैं:",
+    progressIntro: "यह आपका MIRA प्रगति सारांश है:",
+    habitsIntro: "MIRA ने आपकी आदतों का विश्लेषण किया:",
+    goalsEmpty: "आपने अभी कोई लक्ष्य नहीं रखा। एक meaningful लक्ष्य से शुरू करें।",
+    generalThanks: "साझा करने के लिए धन्यवाद। MIRA ने आपके wellness डेटा को देखा:",
+  },
+  es: {
+    greeting: "¡Hola! Soy MIRA AI by Maryam 🦋 — tu compañera de bienestar.\n\nEntiendo cómo te sientes hoy. Pregúntame sobre tu semana, estrés, hábitos o progreso.",
+    fallback: "MIRA está aquí para ti. Pregunta sobre tu ánimo, hábitos o cómo fue tu semana.",
+    moodInsight: "Entiendo tu estado de ánimo hoy. Tu conciencia emocional está creciendo.",
+    weekIntro: "Aquí está tu resumen semanal de MIRA:",
+    stressIntro: "Te escucho. Según tus entradas recientes, veamos qué puede causar estrés:",
+    progressIntro: "Aquí está tu panorama de progreso MIRA:",
+    habitsIntro: "MIRA analizó tus hábitos:",
+    goalsEmpty: "Aún no tienes metas. Empieza con una meta significativa y 2-3 hitos.",
+    generalThanks: "Gracias por compartir. MIRA revisó tus datos de bienestar:",
+  },
+  it: {
+    greeting: "Ciao! Sono MIRA AI by Maryam 🦋 — la tua compagna di benessere.\n\nCapisco i tuoi sentimenti di oggi. Chiedimi della settimana, stress, abitudini o progressi.",
+    fallback: "MIRA è qui per te. Chiedi del tuo umore, abitudini o com'è andata la settimana.",
+    moodInsight: "Capisco il tuo umore oggi. La tua consapevolezza emotiva sta crescendo.",
+    weekIntro: "Ecco il tuo riepilogo settimanale MIRA:",
+    stressIntro: "Ti ascolto. In base alle tue voci recenti, vediamo cosa può causare stress:",
+    progressIntro: "Ecco il tuo snapshot di progresso MIRA:",
+    habitsIntro: "MIRA ha analizzato le tue abitudini:",
+    goalsEmpty: "Non hai ancora obiettivi. Inizia con un obiettivo significativo e 2-3 traguardi.",
+    generalThanks: "Grazie per la condivisione. MIRA ha esaminato i tuoi dati di benessere:",
+  },
+  de: {
+    greeting: "Hallo! Ich bin MIRA AI by Maryam 🦋 — deine Wellness-Begleiterin.\n\nIch verstehe deine Gefühle heute. Frag mich nach deiner Woche, Stress, Gewohnheiten oder Fortschritt.",
+    fallback: "MIRA ist für dich da. Frag nach Stimmung, Gewohnheiten oder deiner Woche.",
+    moodInsight: "Ich verstehe deine Stimmung heute. Dein emotionales Bewusstsein wächst.",
+    weekIntro: "Hier ist deine MIRA-Wochenübersicht:",
+    stressIntro: "Ich höre dich. Basierend auf deinen Einträgen schauen wir auf mögliche Stressquellen:",
+    progressIntro: "Hier ist dein MIRA-Fortschrittsüberblick:",
+    habitsIntro: "MIRA hat deine Gewohnheiten analysiert:",
+    goalsEmpty: "Du hast noch keine Ziele. Beginne mit einem sinnvollen Ziel und 2-3 Meilensteinen.",
+    generalThanks: "Danke fürs Teilen. MIRA hat deine Wellness-Daten geprüft:",
+  },
+  ja: {
+    greeting: "こんにちは！MIRA AI by Maryam 🦋 です — あなたのウェルネスパートナー。\n\n今日の気持ちを理解しています。週、ストレス、習慣、進捗についていつでも聞いてください。",
+    fallback: "MIRAはここにいます。気分、習慣、今週の様子について聞いてください。",
+    moodInsight: "今日の気分を理解しています。感情への意識が高まっています。",
+    weekIntro: "MIRAの週間サマリーです：",
+    stressIntro: "お聞きしています。最近の記録からストレスの原因を見てみましょう：",
+    progressIntro: "MIRAの進捗スナップショットです：",
+    habitsIntro: "MIRAが習慣を分析しました：",
+    goalsEmpty: "まだ目標がありません。意味のある目標と2-3のマイルストーンから始めましょう。",
+    generalThanks: "共有ありがとうございます。MIRAがウェルネスデータを確認しました：",
+  },
+  ko: {
+    greeting: "안녕하세요! MIRA AI by Maryam 🦋입니다 — 당신의 웰니스 동반자.\n\n오늘의 감정을 이해합니다. 주간, 스트레스, 습관, 성장에 대해 언제든 물어보세요.",
+    fallback: "MIRA가 함께합니다. 기분, 습관, 이번 주에 대해 물어보세요.",
+    moodInsight: "오늘의 기분을 이해합니다. 감정 인식이 자라고 있습니다.",
+    weekIntro: "MIRA 주간 요약입니다:",
+    stressIntro: "듣고 있습니다. 최근 기록을 바탕으로 스트레스 원인을 살펴봅시다:",
+    progressIntro: "MIRA 진행 스냅샷입니다:",
+    habitsIntro: "MIRA가 습관을 분석했습니다:",
+    goalsEmpty: "아직 목표가 없습니다. 의미 있는 목표와 2-3개 마일스톤으로 시작하세요.",
+    generalThanks: "공유해 주셔서 감사합니다. MIRA가 웰니스 데이터를 확인했습니다:",
+  },
+  zh: {
+    greeting: "你好！我是 MIRA AI by Maryam 🦋 — 你的 wellness 伙伴。\n\n我理解你今天的感受。随时问我关于本周、压力、习惯或进展的问题。",
+    fallback: "MIRA 在这里陪伴你。可以问心情、习惯或本周过得如何。",
+    moodInsight: "我理解你今天的心情。你的情绪觉察力正在提升。",
+    weekIntro: "这是你的 MIRA 每周摘要：",
+    stressIntro: "我在听。根据你最近的记录，我们来看看可能的Stress来源：",
+    progressIntro: "这是你的 MIRA 进展快照：",
+    habitsIntro: "MIRA 分析了你的习惯：",
+    goalsEmpty: "你还没有设定目标。从一个有意义的目标和2-3个里程碑开始。",
+    generalThanks: "感谢分享。MIRA 查看了你的 wellness 数据：",
+  },
+};
+
+export function getLocalTemplate(lang, key) {
+  const code = lang?.split('-')[0] || 'en';
+  const bundle = LOCAL_AI_TEMPLATES[code] || LOCAL_AI_TEMPLATES.en;
+  return bundle[key] || LOCAL_AI_TEMPLATES.en[key] || '';
+}
