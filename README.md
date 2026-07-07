@@ -245,7 +245,7 @@ vite
 
 ## 👩‍💻 Author
 
-**Created by [Maryam](https://github.com/MaryamAmjad-Dev)**
+**Created by [Maryam Amjad](https://github.com/MaryamAmjad-Dev)**
 
 MIRA AI by Maryam 🦋 — *Your AI-powered personal growth operating system.*
 
